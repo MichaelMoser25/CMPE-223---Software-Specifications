@@ -16,5 +16,5 @@ How to Run:
 - Navigate to the directory containing the file 
 - Run: python email_validator.py 
 - The tests will automatically run and show: 
-  ✓ for passed tests 
-  ✗ and error message for failed tests 
+  - ✓ for passed tests 
+  - ✗ and error message for failed tests 
