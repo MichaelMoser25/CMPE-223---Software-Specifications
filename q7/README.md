@@ -17,6 +17,7 @@ This program simulates a Deterministic Finite Automaton (DFA) that accepts strin
 
 
 ## Example Output
+
 String Testing Results:
 ----------------------------------------
 Input String              | Result
