@@ -1,28 +1,27 @@
-DFA Rules
-A string is accepted if:
+# DFA String Simulator
 
-The absolute difference between the number of 'a's and 'b's is ≤ 3
-|nₐ - nᵦ| ≤ 3 where:
+This program simulates a Deterministic Finite Automaton (DFA) that accepts strings over the alphabet {a,b} where the absolute difference between the number of 'a's and 'b's is at most 3.
 
-nₐ is the count of 'a's
-nᵦ is the count of 'b's
+## Requirements
+
+- Python 3.x
+
+## How to Run
+
+1. Save the Python code in a file named `dfa_simulator.py`
+2. Open a terminal or command prompt
+3. Navigate to the directory containing the file
+4. Run the program using Python:
+   ```bash
+   python dfa_simulator.py
 
 
-
-Modifying Test Strings
-To test different strings:
-
-Open dfa_simulator.py in a text editor
-Modify the test_strings list
-Save and run the program again
-
-Example Output
-CopyString Testing Results:
+## Example Output
+String Testing Results:
 ----------------------------------------
 Input String              | Result
 ----------------------------------------
 aaa                      | Accept
 abab                     | Accept
 ...
-Error Handling
-The program assumes all input strings contain only 'a' and 'b' characters. For other characters, modify the simulator function accordingly.
+
