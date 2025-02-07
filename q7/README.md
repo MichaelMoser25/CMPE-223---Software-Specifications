@@ -16,9 +16,6 @@ This program simulates a Deterministic Finite Automaton (DFA) that accepts strin
    python dfa_simulator.py
 
 
-## Example Output
-
-String Testing Results:
 ----------------------------------------
 Input String              | Result
 ----------------------------------------
